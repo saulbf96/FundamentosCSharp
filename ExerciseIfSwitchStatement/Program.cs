@@ -88,7 +88,7 @@ Ingresa una calificación (0 a 10) y muestra:
 Menos de 6 → "Reprobado" 
  */
 
-using System.Runtime.CompilerServices;
+/*
 
 int calificacion;
 Console.WriteLine("Ingresa tu calificacion obtenida.");
@@ -114,3 +114,81 @@ else if ( calificacion is > 10)
 {
     Console.WriteLine($"verifica tu calificacion {calificacion}, no es una calificacion, verifica tu numero obtenido");
 }
+*/
+/*
+int operacion;
+double numero1, numero2;
+double resultado;
+Console.WriteLine("Ingresa la oprecion que necesitas realizar");
+Console.WriteLine("1.Suma");
+Console.WriteLine("2.Resta");
+Console.WriteLine("3.Multiplicacion");
+Console.WriteLine("4.Division");
+
+
+//el usuario ingresa el numero del menu
+operacion = Convert.ToInt32(Console.ReadLine());
+if (operacion == 1)
+{
+    Console.WriteLine("Elegiste suma");
+}
+else if (operacion == 2)
+    
+{
+    Console.WriteLine("Elegiste Resta");
+}
+else if(operacion == 3)
+{
+    Console.WriteLine("Elegiste Multiplicacion");
+}
+else if (operacion == 4 )
+{
+    Console.WriteLine("Elegiste Division");
+    
+}
+else
+{
+    Console.WriteLine("Porfavor inicia de nuevo elige un numero dentro del menu.");
+}
+
+
+  //pedimos al usuario que ingrese los numeros de la operacion 
+Console.WriteLine("Ingresa el primer numero");
+numero1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Ingresa el segundo numero");
+numero2 = Convert.ToDouble(Console.ReadLine());
+
+switch (operacion)
+{
+    case 1:
+        resultado = numero1 + numero2;
+        Console.WriteLine($"El resultado de {numero1} + {numero2} es = {resultado}");
+        break;
+    case 2:
+        resultado = numero1 - numero2;
+        Console.WriteLine($"El resultado de {numero1} - {numero2} es = {resultado}");
+        break;
+    case 3:
+        resultado = numero1 * numero2;
+        Console.WriteLine($"El resultado de {numero1} * {numero2} es = {resultado}");
+        break;
+    case 4:
+       if (numero2 == 0)
+        {
+            Console.WriteLine("Error : no se puede dividir entre 0");
+
+        }
+       else
+        {
+            resultado = numero1 / numero2;
+            Console.WriteLine($"El resultado de {numero1} / {numero2} es = {resultado}");
+
+        }
+       break;
+    default:
+        break;
+}
+*/
+
+
+
