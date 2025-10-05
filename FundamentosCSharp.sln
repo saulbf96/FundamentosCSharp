@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwithStatement", "SwithStat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseIfSwitchStatement", "ExerciseIfSwitchStatement\ExerciseIfSwitchStatement.csproj", "{1CDBC93B-5AA6-4964-871D-1A589F581C56}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Loops", "Loops", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopDoWhile", "LoopDoWhile\LoopDoWhile.csproj", "{A96AADDE-E72C-476B-B4C2-D9CD2821CEA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +31,16 @@ Global
 		{1CDBC93B-5AA6-4964-871D-1A589F581C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CDBC93B-5AA6-4964-871D-1A589F581C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CDBC93B-5AA6-4964-871D-1A589F581C56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A96AADDE-E72C-476B-B4C2-D9CD2821CEA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96AADDE-E72C-476B-B4C2-D9CD2821CEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96AADDE-E72C-476B-B4C2-D9CD2821CEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96AADDE-E72C-476B-B4C2-D9CD2821CEA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A96AADDE-E72C-476B-B4C2-D9CD2821CEA4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A56D5B0E-DCCC-4AE2-A4CD-3E8A330A63A0}

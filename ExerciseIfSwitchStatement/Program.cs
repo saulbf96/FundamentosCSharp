@@ -1,11 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-
-/*
- * Pedir al usuario su edad  
+/*Pedir al usuario su edad  
 eres menor de edad si es <18 
 eres adulto  si esta entre 18 y 65
-eres adulto mayor si  es mayor de 65 
+eres adulto mayor si  es mayor de 65 */
  
 
 //declaramos variable 
@@ -34,7 +32,7 @@ else if (edad > 65)
 {
     Console.WriteLine("Eres adulto mayor");
 }
-*/
+
 
 /*
  * Días de la semana:
@@ -74,8 +72,8 @@ switch (numero)
         break;
 }
 
-*/
-/*
+
+
 Calificaciones:
 Ingresa una calificación (0 a 10) y muestra:
 
@@ -87,7 +85,6 @@ Ingresa una calificación (0 a 10) y muestra:
 
 Menos de 6 → "Reprobado" 
  */
-
 /*
 
 int calificacion;
@@ -114,8 +111,7 @@ else if ( calificacion is > 10)
 {
     Console.WriteLine($"verifica tu calificacion {calificacion}, no es una calificacion, verifica tu numero obtenido");
 }
-*/
-/*
+*
 int operacion;
 double numero1, numero2;
 double resultado;
@@ -188,7 +184,12 @@ switch (operacion)
     default:
         break;
 }
-*/
+
+ */
+
+
+
+
 
 
 
