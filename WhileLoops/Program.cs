@@ -61,14 +61,32 @@ Muestra el mensaje "Hola mundo" 5 veces.
 //El usuario ingresa un número N, y el programa suma del 1 hasta N.
 //Ejemplo: si N = 4 → resultado = 10.
 
+//Console.WriteLine("Ingresa el numero");
+//int numero  = Convert.ToInt32(Console.ReadLine());
+//int suma = 0;//acumulador 
+//int i = 1; //contador
+//while ( i <= numero)
+//{
+//    suma += i;//sumamos el valor actual de i = 1
+//    i++;// incrementamos i en 1
+
+//}
+//Console.WriteLine(suma);
+//Mostrar números pares hasta N
+//El usuario ingresa un número y el programa muestra los números pares desde 2 hasta N.
+
 Console.WriteLine("Ingresa el numero");
-int numero  = Convert.ToInt32(Console.ReadLine());
-int suma = 0;//acumulador 
-int i = 1; //contador
-while ( i <= numero)
+int numero = Convert.ToInt32(Console.ReadLine());
+int numeroPar;
+int i = 1;
+while (i <= numero)
 {
-    suma += i;//sumamos el valor actual de i = 1
-    i++;// incrementamos i en 1
-    
+    if (numero % 2 == 0)
+    {
+
+        i++;
+    }
+    Console.WriteLine($"{i}");
+
+
 }
-Console.WriteLine(suma);
