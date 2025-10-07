@@ -1,33 +1,39 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 
-/*
- * Los bucles do funcionan de la siguiente manera: Se ejecuta el código que has
+
+
+
+int i;
+
+
+
+/* Los bucles do funcionan de la siguiente manera: Se ejecuta el código que has
  * marcado para el bucle, se realiza una prueba booleana 
 y el código se ejecuta de nuevo si esta prueba es verdadera, 
 y así sucesivamente. Cuando la prueba es falsa, el bucle se cierra.
- */
+ 
 //Structure
-/*do
+do
 {
     //codigo por hacer 
 
 } while (true);
-*/
+
 
 //por ejemplo podemos escribir los numeros del 1 al 10 
-/*
+
 int i = 1;
 do
 {
     Console.WriteLine($"{i++}");
 } while (i <= 10);
-*/
+
 
 //ejemplo sencillo 
 
 //declaramos variables 
-/*
+
 double balance, interesRate, targetBalance;
 Console.WriteLine("What is your  currente balance?");
 balance = Convert.ToDouble(Console.ReadLine());
@@ -43,14 +49,14 @@ do
 } while (balance < targetBalance);
 Console.WriteLine($"in {totalYears} year {(totalYears == 1 ? "" : "s")}" +
     $"you'll have a balance  of {balance}.");
-Console.ReadKey();*/
+Console.ReadKey();
 
-/*
+
  * Pide al usuario que ingrese una contraseña hasta que escriba "1234".
 Cuando la escriba correctamente, muestra:
- */
+ 
 //pedimos la contraseña 
-/*
+
 const string contraseña = "123"; 
 string input;
 Console.WriteLine("Escribe  la contraseña correcta");
@@ -67,15 +73,15 @@ do
 
 } while (input != contraseña);
 Console.WriteLine("Acceso Autorizado");
-*/
+
 
 /*
  Pide al usuario que ingrese números hasta que escriba uno negativo.
 Al final muestra cuántos números positivos ingresó.
- */
+ 
 
-/*
-int numero;//variable para almacenar numero ingresados 
+
+int numero;ariable para almacenar numero ingresados 
 
 int i = 0;//acumulador para sumar los numeros ingresados 
 do
@@ -91,7 +97,7 @@ do
 } while (numero > 0);
 Console.WriteLine("Escribiste un numero negativo");
 Console.WriteLine($"La suma de tus  numeros  ingresados son: {i}");//i++ me dice cuantos intentos o cuantas veces ingredse
-*/
+
 
 /*
  Menú interactivo
@@ -216,7 +222,7 @@ El usuario intenta adivinarlo.
 El programa indica si el intento es “muy alto” o “muy bajo” y se repite hasta que acierte.
  */
 
-
+/*
 Random random = new Random();//creamos objeto de Random
 int numeroRandom; //aqui se guardara el numero aleatorio
 numeroRandom = random.Next(1, 10);//aqui decimos solo el rangodel 1 al 10
@@ -241,4 +247,6 @@ do
     }
 } while (numero != numeroRandom);//hacersi numero es diferente de random de lo contrario  +
                                  //si es igual se termina programa 
+*/
+
 
