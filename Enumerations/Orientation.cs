@@ -13,4 +13,8 @@ namespace Enumerations
         east = 3,
         west = 4
     }
+
+    //add struct 
+    
 }
+

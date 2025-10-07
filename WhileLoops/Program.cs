@@ -75,18 +75,17 @@ Muestra el mensaje "Hola mundo" 5 veces.
 //Mostrar números pares hasta N
 //El usuario ingresa un número y el programa muestra los números pares desde 2 hasta N.
 
+int numero;
+int contador = 2;//int i; empezamos desde el primer numero par 
+
 Console.WriteLine("Ingresa el numero");
-int numero = Convert.ToInt32(Console.ReadLine());
-int numeroPar;
-int i = 1;
-while (i <= numero)
+numero = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine($"numeros pares desde 2 hasta {numero}");
+
+while (contador <= numero)
 {
-    if (numero % 2 == 0)
-    {
-
-        i++;
-    }
-    Console.WriteLine($"{i}");
-
+    Console.WriteLine(contador);
+    contador += 2;
 
 }
